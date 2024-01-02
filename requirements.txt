@@ -12,6 +12,7 @@ pathspec==0.12.1
 Pillow==10.1.0
 platformdirs==4.1.0
 python-dateutil==2.8.2
+python-dotenv==1.0.0
 PyYAML==6.0.1
 pyyaml_env_tag==0.1
 six==1.16.0
