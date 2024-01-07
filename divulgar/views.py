@@ -43,7 +43,7 @@ def novo_pet(request):
         tags = Tag.objects.all()
         racas = Raca.objects.all()
         messages.add_message(request, constants.SUCCESS, 'Novo pet cadastrado')
-        return render(request, 'novo_pet.html', {'tags': tags, 'racas': racas})
+        return redirect('/divulgar/seus_pets')
     
 @login_required
 def seus_pets(request):
