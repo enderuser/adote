@@ -20,10 +20,33 @@ Repara que seu banco de dados local acabou de ser criado, portanto, não existe 
 
 ## Estrutura do Projeto
 
-    requirements.txt    # Dependencias do projeto aqui.
-    core/
-        env_exemplo  # Ninguem é obrigado a adivinhar as variaveis de ambiente, seguem aqui.
-        settings.py  # Configurações gerais do projeto aqui.
-        urls.py  # Mapeamento das rotas por app aqui.
+> requirements.txt    # Dependencias do projeto aqui.
+
+**core/**
+
+    env_exemplo  # Ninguem é obrigado a adivinhar as variaveis de ambiente, seguem aqui.
+    settings.py  # Configurações gerais do projeto aqui.
+    urls.py  # Mapeamento das rotas do projeto aqui.
+
+**divulgar/**
+
+    templates/
+        novo_pet.html  # Exibe o form de cadastro para incluir novo pet no sistema.
+        seus_pets.html  # Lista os pets do usuario logado no sistema.
+    admin.py  # Coordena o registro do app divulgar no painel admin do django.
+    models.py  # Responsável por todas as tabelas do app divulgar no banco de dados.
+    urls.py  # Mapeamento das rotas do app divulgar aqui.
+    views.py  # Trata da lógica de processamento das requisições HTTP.
+
+**documentacao/**
+
+    docs/
+        index.md  # Informações base sobre a construção desse projeto.
+    mkdocs.yml  # Arquivo de configuração usado pelo MkDocs.
+
+**media/**
+
+    fotos_pets/
+        # Local onde é armazenado as fotos de uploads feito pelo usuario ao cadastrar o pet.
         
     
