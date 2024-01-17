@@ -2,6 +2,9 @@
 
 Aula pythonando-programming-path
 
+>Tela de Login no sistema:
+![image](https://github.com/enderuser/adote/assets/61158448/51780384-eeff-4402-a7af-5bd9117075c8)
+
 ## Comece por aqui
 
 Vou assumir que para chegar ate aqui você já tenha o python instalado no seu PC. Portanto, ao clonar o projeto, primeiro execute o comando; `python -m venv venv` - para criar o ambiente virtual.
